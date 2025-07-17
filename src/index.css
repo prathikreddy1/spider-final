@@ -1,1 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+/* Custom mask class for PIN input */
+.password-mask {
+  font-family: 'text-security-disc', sans-serif;
+  -webkit-text-security: disc;
+  text-security: disc;
+}
